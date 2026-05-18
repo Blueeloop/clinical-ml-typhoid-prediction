@@ -1,1 +1,1 @@
-# clinical-ml-typhoid-prediction
+# disease-prediction-ml-typhoid
