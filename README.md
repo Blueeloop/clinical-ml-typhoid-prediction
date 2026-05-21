@@ -60,7 +60,7 @@ Typhoid fever remains a major public health concern in developing countries. Ear
   - Support Vector Machine (e1071)
 - Data Visualization: ggplot2
 - Development Environment: RStudio / R Notebook
-
+- 
 ## 📂 Dataset
 
 The dataset contains patient symptoms and clinical features used to predict Typhoid status (Positive/Negative).
