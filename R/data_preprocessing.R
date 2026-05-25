@@ -48,6 +48,10 @@ typhoid_data[cols_to_factor] <- lapply(
   as.factor
 )
 
+ OR 
+
+typhoid_data <- typhoid_data %>% 
+                mutate(across(where(is.character), as.factor))
 
 # -----------------------------
 # 3. Clean target variable
