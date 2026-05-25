@@ -10,7 +10,7 @@ library(dplyr)
 # 1. Load raw dataset
 # -----------------------------
 typhoid_data <- read.csv(
-  "data/Typhoid_dataset_age_10_to_19.csv",
+  "data/Typhoid_dataset.csv",
   stringsAsFactors = FALSE
 )
 
@@ -73,4 +73,6 @@ write.csv(
 )
 
 # Optional confirmation
-print("Data preprocessing complete. Clean dataset saved.")
+data_check = read.csv("data/typhoid_cleaned.csv")
+
+head(data_check) 
