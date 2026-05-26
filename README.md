@@ -65,6 +65,19 @@ Typhoid fever remains a major public health concern in developing countries. Ear
 
 The dataset contains patient symptoms and clinical features used to predict Typhoid status (Positive/Negative).
 
+📁 Project Structure
+
+Typhoid-ML-Prediction/
+│
+├── data/
+│   └── Typhoid_dataset.csv
+├── notebooks/
+│   └── typhoid_analysis.Rmd
+├── scripts/
+│   └── model_training.R
+├── README.md
+└── requirements.txt
+
 ## 🏆 Results
 
 The best performing model was selected based on accuracy and F1-score.
