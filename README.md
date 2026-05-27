@@ -76,6 +76,7 @@ Typhoid-ML-Prediction/
 ├── scripts/
 │   └── model_training.R
 ├── README.md
+
 └── requirements.txt
 
 ## 🏆 Results
