@@ -67,17 +67,23 @@ The dataset contains patient symptoms and clinical features used to predict Typh
 
 📁 Project Structure
 
+## 📁 Project Structure
+
+```text
 Typhoid-ML-Prediction/
 │
 ├── data/
 │   └── Typhoid_dataset.csv
+│
 ├── notebooks/
 │   └── typhoid_analysis.Rmd
+│
 ├── scripts/
 │   └── model_training.R
+│
 ├── README.md
-
 └── requirements.txt
+```
 
 ## 🏆 Results
 
